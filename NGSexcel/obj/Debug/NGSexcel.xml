@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NGSexcel
+</name>
+</assembly>
+<members>
+<member name="P:NGSexcel.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:NGSexcel.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:NGSexcel.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:NGSexcel.ThisAddIn.#ctor(Microsoft.Office.Tools.Excel.ApplicationFactory,System.IServiceProvider)">
+</member><member name="M:NGSexcel.ThisAddIn.Initialize">
+</member><member name="M:NGSexcel.ThisAddIn.FinishInitialization">
+</member><member name="M:NGSexcel.ThisAddIn.InitializeDataBindings">
+</member><member name="M:NGSexcel.ThisAddIn.InitializeCachedData">
+</member><member name="M:NGSexcel.ThisAddIn.InitializeData">
+</member><member name="M:NGSexcel.ThisAddIn.BindToData">
+</member><member name="M:NGSexcel.ThisAddIn.StartCaching(System.String)">
+</member><member name="M:NGSexcel.ThisAddIn.StopCaching(System.String)">
+</member><member name="M:NGSexcel.ThisAddIn.IsCached(System.String)">
+</member><member name="M:NGSexcel.ThisAddIn.BeginInitialization">
+</member><member name="M:NGSexcel.ThisAddIn.EndInitialization">
+</member><member name="M:NGSexcel.ThisAddIn.InitializeControls">
+</member><member name="M:NGSexcel.ThisAddIn.InitializeComponents">
+</member><member name="M:NGSexcel.ThisAddIn.NeedsFill(System.String)">
+</member><member name="M:NGSexcel.ThisAddIn.OnShutdown">
+</member><member name="T:NGSexcel.ThisAddIn">
+</member><member name="M:NGSexcel.Globals.#ctor">
+</member><member name="T:NGSexcel.Globals">
+</member><member name="M:NGSexcel.ThisRibbonCollection.#ctor(Microsoft.Office.Tools.Ribbon.RibbonFactory)">
+</member><member name="T:NGSexcel.ThisRibbonCollection">
+</member>
+</members>
+</doc>
