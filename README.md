@@ -11,3 +11,10 @@ However the large number of variants called with NGS, particularly for whole gen
 
 To address these needs I have developed NGSxl a Microsoft Excel (2007) plugin written in visual basic aimed at users working with genomic variation data. The plugin provides the ability to split very large text files that exceed the maximum lines in Excel into shorter (reduced number of lines) files which can be read without losing information. At the same time the user can add additional criteria to split files and/or filter which lines are included based on column values, such as variant type or quality metrics.
 For working with genomic data in Excel the plugin allows the user to hyperlink genomic coordinates to genome browsers (Ensembl, UCSC), and to pull reference sequence information from a DAS server (Ensembl, UCSC) in a format suitable for loading into primer design software (e.g. Primer3). Both of these functions can be implemented for hg18 or hg19 assemblies.
+
+## Functions
+
+* Split up large files (exceeding Excel max lines limit into multiple smaller files)
+* Link to ensembl or UCSC genome browser by chr/start/end columns (will auto select if given header row)
+* Get sequence for a given location, or get a batch of sequences from a column of genomic coordinates, with option to extend either side of target region (useful for designing primers)
+* Combine to genomic coordinates: add a column containing combined genomic coordinates from chr/start/end columns
